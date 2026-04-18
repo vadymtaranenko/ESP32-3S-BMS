@@ -8640,28 +8640,6 @@
 		)
 		(uuid "04ea524d-5f68-40a6-bb33-9d115d10fcf1")
 	)
-	(text_box "Main Power Distribution\n"
-		(exclude_from_sim no)
-		(at 13.97 15.24 0)
-		(size 117.475 78.74)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "282027dc-ab47-405b-931c-4296923f35f8")
-	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 118.11 160.02 0)
@@ -10258,6 +10236,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 111.76) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4807d8cf-6055-4316-8f27-b5f57f24ab3b")
+	)
+	(wire
+		(pts
 			(xy 90.17 250.19) (xy 92.71 250.19)
 		)
 		(stroke
@@ -11838,7 +11826,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 111.76) (xy 58.42 111.76)
+			(xy 57.15 111.76) (xy 63.5 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12075,16 +12063,6 @@
 			(type default)
 		)
 		(uuid "b2015e1d-97e6-422d-a5ff-8a2ad2a3b2e0")
-	)
-	(wire
-		(pts
-			(xy 68.58 132.08) (xy 68.58 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2efb21d-7ca2-4c24-a848-863af57615b8")
 	)
 	(wire
 		(pts
@@ -13327,7 +13305,7 @@
 		(uuid "09658d4c-9545-496d-9afb-a7f824ff4295")
 	)
 	(label "IO34"
-		(at 341.63 227.33 0)
+		(at 220.98 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13397,7 +13375,7 @@
 		(uuid "245ce84f-6b0f-4eb9-a2e6-bf2745109a79")
 	)
 	(label "IO39"
-		(at 220.98 260.35 0)
+		(at 222.25 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13527,7 +13505,7 @@
 		(uuid "4883e563-f931-4133-80ee-67e11f9e1534")
 	)
 	(label "IO4"
-		(at 125.73 265.43 0)
+		(at 127 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13537,7 +13515,7 @@
 		(uuid "5aadfa34-bf1d-4168-818c-c0ad8c71253f")
 	)
 	(label "IO36"
-		(at 222.25 224.79 0)
+		(at 219.71 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13657,7 +13635,7 @@
 		(uuid "81a29205-cb71-4daf-85dc-f68721aa5968")
 	)
 	(label "IO35"
-		(at 219.71 186.69 0)
+		(at 341.63 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13785,16 +13763,6 @@
 			(justify left bottom)
 		)
 		(uuid "b410548b-46c7-41fa-be8c-ae3915ac21cf")
-	)
-	(label "5V_USB"
-		(at 58.42 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7dcd05c-a40a-4437-bd7a-8dcd55ee32cd")
 	)
 	(label "V3+"
 		(at 204.47 172.72 0)
@@ -13987,7 +13955,7 @@
 		(uuid "e048d75c-0bc5-432a-b24e-b92b73f72cb6")
 	)
 	(label "IO17"
-		(at 127 182.88 0)
+		(at 125.73 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14005,16 +13973,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6cb15a9-c6fe-42ce-846e-81982c4ad869")
-	)
-	(label "5V_USB"
-		(at 68.58 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f08c75dd-ffce-4609-aad0-0ee19cbe57fc")
 	)
 	(label "IO32"
 		(at 92.71 250.19 0)
@@ -20895,6 +20853,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8b08ac-fab9-480a-97a4-43925c62d934")
+		(property "Reference" "#PWR012"
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb639711-ffa9-4fae-9044-4f63ae443924")
+		)
+		(instances
+			(project "BMS"
+				(path "/416cad80-5d16-4386-bcbd-118262b7dc4e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 144.78 90)
 		(unit 1)
@@ -23168,6 +23204,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3bb9fcf-370d-4fc6-8cb3-7c32125044a4")
+		(property "Reference" "#PWR046"
+			(at 68.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04f5251d-017c-4206-8a80-09d117df844b")
+		)
+		(instances
+			(project "BMS"
+				(path "/416cad80-5d16-4386-bcbd-118262b7dc4e"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 149.86 0)
 		(unit 1)
@@ -25383,7 +25496,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 179.07 0)
+		(at 180.34 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25394,7 +25507,7 @@
 		(fields_autoplaced yes)
 		(uuid "c23453fe-200b-49c5-8552-dfd2dea9493b")
 		(property "Reference" "R19"
-			(at 177.8 180.3401 0)
+			(at 182.88 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25405,7 +25518,7 @@
 			)
 		)
 		(property "Value" "16"
-			(at 177.8 177.8001 0)
+			(at 182.88 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25416,7 +25529,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P5.08mm_Vertical"
-			(at 178.562 179.07 90)
+			(at 182.118 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
