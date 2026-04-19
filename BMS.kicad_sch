@@ -13505,7 +13505,7 @@
 		(uuid "4883e563-f931-4133-80ee-67e11f9e1534")
 	)
 	(label "IO4"
-		(at 127 182.88 0)
+		(at 125.73 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13955,7 +13955,7 @@
 		(uuid "e048d75c-0bc5-432a-b24e-b92b73f72cb6")
 	)
 	(label "IO17"
-		(at 125.73 265.43 0)
+		(at 127 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25496,7 +25496,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 179.07 180)
+		(at 180.34 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25514,7 +25514,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "16"
@@ -25525,11 +25525,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P5.08mm_Vertical"
-			(at 182.118 179.07 90)
+			(at 178.562 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
