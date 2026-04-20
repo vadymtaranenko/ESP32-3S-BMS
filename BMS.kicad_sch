@@ -13276,7 +13276,7 @@
 		(uuid "0550a5a7-6a15-4fbd-a131-b54c0d963dc6")
 	)
 	(label "IO26"
-		(at 308.61 77.47 180)
+		(at 308.61 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13446,7 +13446,7 @@
 		(uuid "3af0acc2-1b6c-441c-af43-643076972b90")
 	)
 	(label "IO33"
-		(at 222.25 125.73 180)
+		(at 293.37 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13556,7 +13556,7 @@
 		(uuid "6b8bd597-82db-46c5-a176-af24dbac6e1d")
 	)
 	(label "IO25"
-		(at 308.61 33.02 180)
+		(at 308.61 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13586,7 +13586,7 @@
 		(uuid "704fe079-a128-403f-bcc6-1fc45d7cb3be")
 	)
 	(label "IO32"
-		(at 293.37 64.77 0)
+		(at 222.25 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
