@@ -26424,7 +26424,7 @@
 				)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "47u"
 			(at 95.25 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
