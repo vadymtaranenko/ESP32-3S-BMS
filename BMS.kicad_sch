@@ -8734,6 +8734,12 @@
 		(uuid "1e5ed941-a179-4b7a-94a5-9d32aff9be9e")
 	)
 	(junction
+		(at 303.53 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24142e52-b528-4c70-bf1b-1c7423a3725f")
+	)
+	(junction
 		(at 397.51 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9044,6 +9050,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5290a65-be7c-4ef0-9c08-72e72ebfc8f3")
+	)
+	(junction
+		(at 303.53 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5eb736e-dfe3-45e7-b638-d44fecbfe70a")
 	)
 	(junction
 		(at 64.77 81.28)
@@ -9587,6 +9599,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 185.42) (xy 314.96 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e6045d-6a6b-4d23-851d-4117a1e357d9")
+	)
+	(wire
+		(pts
 			(xy 49.53 63.5) (xy 53.34 63.5)
 		)
 		(stroke
@@ -9927,7 +9949,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 187.96) (xy 303.53 193.04)
+			(xy 303.53 187.96) (xy 303.53 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10957,6 +10979,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 177.8) (xy 314.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724e741d-82a7-421d-8b49-f2a8f200ee0e")
+	)
+	(wire
+		(pts
 			(xy 88.9 78.74) (xy 88.9 81.28)
 		)
 		(stroke
@@ -11104,6 +11136,16 @@
 			(type default)
 		)
 		(uuid "7b5f080f-4a03-432d-b32a-5520b0bfbbc5")
+	)
+	(wire
+		(pts
+			(xy 303.53 171.45) (xy 303.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6fedea-a221-461e-95e0-0fc88bac37b7")
 	)
 	(wire
 		(pts
@@ -11364,6 +11406,16 @@
 			(type default)
 		)
 		(uuid "889c4518-331a-4511-b842-f14c4d2d812e")
+	)
+	(wire
+		(pts
+			(xy 314.96 190.5) (xy 303.53 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b5758c-f4cc-40c6-85ff-c5efdf348b00")
 	)
 	(wire
 		(pts
@@ -11997,7 +12049,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 166.37) (xy 303.53 172.72)
+			(xy 303.53 166.37) (xy 303.53 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12284,6 +12336,16 @@
 			(type default)
 		)
 		(uuid "bf19a32f-a4d9-4958-9eb3-34262948d1c5")
+	)
+	(wire
+		(pts
+			(xy 314.96 171.45) (xy 303.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3b5155-21b5-4ae9-9f4f-621db67b3cd1")
 	)
 	(wire
 		(pts
@@ -12594,6 +12656,16 @@
 			(type default)
 		)
 		(uuid "d763022e-175b-45f9-9cbd-ffc381d91964")
+	)
+	(wire
+		(pts
+			(xy 303.53 190.5) (xy 303.53 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89031d2-898b-4007-8ce6-3914dd844bdf")
 	)
 	(wire
 		(pts
@@ -15814,6 +15886,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 314.96 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d76cf7f-8b1d-4e7a-8725-eb99c952c17f")
+		(property "Reference" "C22"
+			(at 318.77 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 318.77 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 315.9252 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 314.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcbaeb8b-9528-4b1f-8df2-8a8c40840ad4")
+		)
+		(pin "2"
+			(uuid "b17a58a9-6ff2-4f4a-9584-64fde261e154")
+		)
+		(instances
+			(project "BMS"
+				(path "/416cad80-5d16-4386-bcbd-118262b7dc4e"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 64.77 81.28 0)
 		(unit 1)
@@ -17199,7 +17353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "100"
 			(at 252.73 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27567,7 +27721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "100"
 			(at 271.78 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
