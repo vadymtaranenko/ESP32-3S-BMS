@@ -26707,7 +26707,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 53.34 111.76 0)
+		(at 53.34 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26718,7 +26718,7 @@
 		(fields_autoplaced yes)
 		(uuid "c99577c7-3f7a-470b-a560-9d4226493b96")
 		(property "Reference" "D13"
-			(at 53.0225 105.41 0)
+			(at 53.6575 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26728,7 +26728,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 53.0225 107.95 0)
+			(at 53.6575 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26738,7 +26738,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 53.34 116.205 0)
+			(at 53.34 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
